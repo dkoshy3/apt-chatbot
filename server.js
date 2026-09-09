@@ -4,12 +4,13 @@
 
 const express = require("express");
 const cors = require("cors");
-
 const path = require("path");
-app.use(express.static(path.join(__dirname, "public")));
 
 const app = express();
 app.use(express.json());
+
+// Serve widget.js (and anything else in /public) directly, e.g. /widget.js
+app.use(express.static(path.join(__dirname, "public")));
 
 // --- CORS: only allow requests from your live site(s) ---
 const ALLOWED_ORIGINS = [
