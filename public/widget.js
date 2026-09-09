@@ -5,8 +5,8 @@
 */
 (function () {
   // ⬇️ CHANGE THIS to your deployed backend URL (e.g. Render URL) once live
-  const BACKEND_URL = "https://apt-chatbot.onrender.com/api/chat";
-
+  const BACKEND_URL = "https://apt-chatbot-udtp.onrender.com/api/chat";
+  
   const COLORS = { primary: "#8f0000", dark: "#212c51", bg: "#ffffff" };
 
   // --- Styles ---
