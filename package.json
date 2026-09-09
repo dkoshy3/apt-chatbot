@@ -1,0 +1,16 @@
+{
+  "name": "apt-chatbot-backend",
+  "version": "1.0.0",
+  "description": "AI chatbot backend for advancedtrailer.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
