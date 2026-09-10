@@ -14,7 +14,7 @@
   style.textContent = `
     #apt-chat-btn {
       position: fixed; bottom: 24px; right: 24px; z-index: 999999;
-      width: 60px; height: 60px; border-radius: 50%;
+      width: 78px; height: 78px; border-radius: 50%;
       background: ${COLORS.primary}; color: white; border: none;
       box-shadow: 0 4px 14px rgba(0,0,0,0.25); cursor: pointer;
       display: flex; align-items: center; justify-content: center;
